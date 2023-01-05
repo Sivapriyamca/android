@@ -25,16 +25,16 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case R.id.Emergency:
-                Toast.makeText(this,"Emergency Clicked",Toast.LENGTH_SHORT).show();
+                Toast.makeText(this,"open Clicked",Toast.LENGTH_SHORT).show();
                 break;
             case R.id.profile:
-                Toast.makeText(this,"Profile Clicked",Toast.LENGTH_SHORT).show();
+                Toast.makeText(this,"share Clicked",Toast.LENGTH_SHORT).show();
                 break;
             case R.id.aboutus:
-                Toast.makeText(this,"About Us Clicked",Toast.LENGTH_SHORT).show();
+                Toast.makeText(this,"delete Clicked",Toast.LENGTH_SHORT).show();
                 break;
             case R.id.signout:
-                Toast.makeText(this,"Signout Clicked",Toast.LENGTH_SHORT).show();
+                Toast.makeText(this,"settings Clicked",Toast.LENGTH_SHORT).show();
                 break;
 
         }
