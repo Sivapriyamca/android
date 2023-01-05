@@ -24,16 +24,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
-            case R.id.Emergency:
+            case open:
                 Toast.makeText(this,"open Clicked",Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.profile:
+            case R.id.share:
                 Toast.makeText(this,"share Clicked",Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.aboutus:
+            case R.id.delete:
                 Toast.makeText(this,"delete Clicked",Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.signout:
+            case R.id.settings:
                 Toast.makeText(this,"settings Clicked",Toast.LENGTH_SHORT).show();
                 break;
 
